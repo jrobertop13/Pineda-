@@ -1,0 +1,47 @@
+using System;
+
+using System.Collections.Generic;
+
+using System.Linq;
+
+using System.Text;
+
+using System.Threading.Tasks;
+
+namespace ConsoleApplication7
+
+{
+
+class Program
+
+{
+
+static void Main(string[] args)
+
+{
+
+double radio, volumen, superficie;
+
+Console.WriteLine("Ingresa Radio:");
+
+radio = Convert.ToDouble(Console.ReadLine());
+
+volumen = (4 / 3) * 3.1416 * (radio * radio * radio);
+
+superficie = 4 * 3.1416 *(radio * radio);
+
+Console.WriteLine("Su volumen es:");
+
+Console.WriteLine(volumen);
+
+Console.WriteLine("Su superficie es: ");
+
+Console.WriteLine(superficie);
+
+Console.ReadLine();
+
+}
+
+}
+
+}
